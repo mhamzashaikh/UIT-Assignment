@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+    <style>
+        form .spaces {
+            display: inline-block;
+            width: 120px;
+        }
+
+        fieldset{
+            width: 600px;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="spaces">
+            <label for="username">
+                User Name:</label>
+        </div>
+        <input type="text" id="username">
+
+        <br>
+        <div class="spaces">
+            <label for="password">
+                Password: </label>
+        </div>
+
+        <input type="password" id="password">
+
+        <br>
+
+        <div class="spaces">
+            <label for="dob">
+                Date of Birth:</label>
+        </div>
+        <input type="date" id="dob"><br>
+
+        <div class="spaces">
+            <label for="weburl">
+                Web URL:</label>
+        </div>
+        <input type="url" id="weburl"><br>
+
+
+        <div class="spaces">
+            <label for="address"> Address:
+            </label>
+        </div>
+        <input type="text" id="address"><br>
+
+        <div class="spaces">
+            <label for="city">City: </label>
+        </div>
+        <select name="cityname" id="city">
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+        </select> <br>
+
+        <div class="spaces">
+            <label for="state">State: </label>
+        </div>
+        <input type="text" id="state"> <br>
+
+        <div class="spaces">
+            <label for="zip">Zip: </label>
+        </div>
+        <input type="number" id="zip"> <br>
+
+
+        <div class="spaces">
+            <label for="magazine">Magazine: </label>
+        </div>
+        <select name="magazine" id="magazine" multiple="multiple">
+            <option value="newsweek">Newsweek</option>
+            <option value="time">Time</option>
+            <option value="fortune">Fortune</option>
+            <option value="tvguide">TV Guide</option>
+        </select> <br> <br>
+
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email:<br />
+                <input type="text" name="email" /></label><br />
+                <label>Mobile:<br />
+                <input type="text" name="mobile" /></label><br />
+                <label>Telephone:<br />
+                <input type="text" name="telephone" /></label>
+        </fieldset>
+
+        <br>
+
+        <label for="additionalcomment">Additional Comments</label> <br>
+            <textarea name="" id="additionalcomment" cols="40" rows="10">Comments</textarea> <br>
+
+        <label for="">Upload your profile picture</label>
+        <input type="file"> <br><br>
+        <input type="submit" value="Upload"> <br> <br>
+
+        <input type="submit" value="Send your Order"> 
+
+        <label for="emails">Email Address</label>
+        <input type="email" id="emails"> <br> <br>
+        <label for="">Subscription: </label>
+        <input type="radio" name="subscriptiontime" value="1 year">1 year 
+        <input type="radio" name="subscriptiontime" value="2 years"> 2 year
+
+        <br>
+        <br>
+
+        <input type="checkbox"> Yes! put me on the list
+        <br>
+        <br>
+        <input type="image" src="./subscribe.png" width="150" height="30"> 
+
+  
+
+
+
+
+</body>
+
+</html>
