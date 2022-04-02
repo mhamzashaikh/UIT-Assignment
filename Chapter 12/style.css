@@ -1,0 +1,52 @@
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+h1{
+    color: red;
+    font-size: 100px;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+
+ul > li {
+    display: inline;
+    font-size: larger;
+
+    
+
+}
+
+ul > li > a{
+    text-decoration: none;
+   
+
+}
+
+
+
+
+
+/* middle content  */
+
+h2{
+    color: red;
+    text-decoration: underline;
+}
+
+h3{
+    background-color: lightgray;
+    color: white;
+    font-weight: normal;
+}
+
+p{
+    margin-left: 30px;
+}
